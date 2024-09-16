@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .footer-link {
+        @apply cursor-pointer hover:text-white hover:underline underline-offset-4 transition-all;
+    }
+}
+
+/* break point: 640px (sm), 768px (md), 1024px (lg), 1280px (xl), 1536px (2xl) */
+
+
+/* min-width: >= 640 */
+@media screen and (min-width: 640px) {
+    /* CSS */
+    .sub-title {
+        color: red;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    /* CSS */
+    .sub-title {
+        color: green;
+    }
+}
+
+
+/* screen <= 640px */
+@media screen and (max-width: 640px) {
+    /* CSS */
+      /* .sub-title {
+        color: red;
+    } */
+}
