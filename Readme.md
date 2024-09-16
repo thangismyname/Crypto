@@ -25,3 +25,18 @@ git init
 ### working directory (file màu đỏ)
 ### staging (file màu xanh)
 => lúc này file sẵn sàng để đưa lên repo remote
+
+### config git (chỉ chạy duy nhất 1 lần)
+### config git
+### git config --global user.name ""
+
+### git commit 
+=> dùng để gắn message vào trong những file đc phép đưa lên repo remote
+=> mỗi commit có một mã sha (id)
+
+### git log
+=> Kiểm tra lịch sử commit
+
+### git push -u origin <tên nhánh>
+=> đưa code lên repo remote
+=> từ lần push code thứ 2 : git push
